@@ -4,6 +4,10 @@ let box = 32; //Tamanho de cada quadrado do canvas
 let snake = []; //Array que representa a cobrinha
 snake[0] = {x: 8 * box, y: 8 * box} //Posição inicial da cobrinha
 let direction = "right";
+let food = { //Array de coordenadas aleatórias
+    x: Math.floor(Math.random() * 15 + 1) * box,
+    y: Math.floor(Math.random() * 15 + 1) * box
+}
 
 function criarBG(){
     context.fillStyle = "lightgreen"; //Adiciona cor ao fundo do canvas
@@ -15,6 +19,11 @@ function criarCobrinha(){
         context.fillStyle = "green"; //Adiciona cor para a cobrinha
         context.fillRect(snake[i].x, snake[i].y, box, box);
     }
+}
+
+function drawFood(){
+    context.fillStyle = "red"; //Adiciona cor para a comida
+    context.fillRect(food.x, food.y, box, box);
 }
 
 document.addEventListener('keydown', update); //Recebe o evento de clique no teclado e chama a função update
@@ -37,6 +46,7 @@ function iniciarJogo(){
     //Chama as funções de criar background e cobrinha ao iniciar o jogo
     criarBG();
     criarCobrinha();
+    drawFood();
 
     //Variáveis de coordenadas da cobrinha
     let snakeX = snake[0].x;
