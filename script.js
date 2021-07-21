@@ -58,8 +58,14 @@ function iniciarJogo(){
     if(direction == "up") snakeY -= box;
     if(direction == "down") snakeY += box;
 
-    snake.pop(); //Remove o último elemento da cobrinha
+    if(snakeX != food.x || snakeY != food.y){ //Compara a posição da cobrinha e da comida
+        snake.pop(); //Remove o último elemento da cobrinha
+    } else{
+        food.x = Math.floor(Math.random() * 15 + 1) * box,
+        food.y = Math.floor(Math.random() * 15 + 1) * box
+    }
 
+    
     let newHead = { //Define onde a cabeça da cobra será criada
         x: snakeX,
         y: snakeY
