@@ -13,4 +13,4 @@ Salve! Meu nome é Luiz, sou um dev iniciante e espero poder contribuir com a co
 
 Contato:
 
-[![Linkedin Badge](https://img.shields.io/badge/-Luiz%20Felipe-blue?logo=LinkedIn&link=https://www.linkedin.com/in/luiz-felipe-da-silva-pereira-1590a1142/)](https://www.linkedin.com/in/luiz-felipe-da-silva-pereira-1590a1142/)[![Outlook Badge](https://img.shields.io/badge/-luizfspereira%40outlook.com-blue?logo=MicrosoftOutlook&link=mailto:luizfspereira@outlook.com)](mailto:luizfspereira@outlook.com)
+[![Linkedin Badge](https://img.shields.io/badge/-Luiz%20Felipe-blue?logo=LinkedIn&link=https://www.linkedin.com/in/luiz-felipe-da-silva-pereira-1590a1142/)](https://www.linkedin.com/in/luiz-felipe-sp)[![Outlook Badge](https://img.shields.io/badge/-luizfspereira%40outlook.com-blue?logo=MicrosoftOutlook&link=mailto:luizfspereira@outlook.com)](mailto:luizfspereira@outlook.com)
